@@ -9,9 +9,9 @@ namespace MuseumGuide.Helper.Options
     {
         public static void AddApplicationError(this HttpResponse response, string message)
         {
-            response.Headers.Add("Applicaiton-Error", message);
-            response.Headers.Add("Access-Control-Allow-Origin", "*");
-            response.Headers.Add("Access-Control-Expose-Header", "Application-Error");
+            //response.Headers.Add("Applicaiton-Error", message);
+            //response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //response.Headers.Add("Access-Control-Expose-Header", "Application-Error");
         }
     }
 }
